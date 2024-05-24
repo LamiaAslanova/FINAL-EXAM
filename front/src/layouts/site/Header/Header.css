@@ -1,0 +1,95 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 0;
+}
+
+header ul li a{
+    font-size: 13px;
+    font-weight: 500;
+    color: #1e1e27;
+    transition: 0.3s;
+}
+
+header ul li a:hover{
+    color: #b5aec4;
+}
+
+header button{
+    border: none;
+    background-color: #ECEFF6;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 13px;
+}
+
+header span{
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+}
+
+header .second{
+    color: #fe4c50
+}
+
+.header__middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.resp__button{
+    background-color: #fe4c50;
+    border: none;
+}
+
+.offcanvas-body ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.offcanvas-body ul li a{
+    font-size: 13px;
+    font-weight: 500;
+    color: #1e1e27;
+}
+
+.resp{
+    display: none;
+}
+
+.header__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__right sup{
+    color: black;
+}
+
+@media screen and (max-width: 992px){
+    .resp{
+        display: block;
+    }
+    .first__ul{
+        display: none;
+    }
+}

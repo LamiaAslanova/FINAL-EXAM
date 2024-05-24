@@ -1,0 +1,48 @@
+.card-body h5{
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}
+
+.card-body p{
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #fe4c50;
+}
+
+.h5__div{
+    height: 70px;
+}
+
+.card{
+    border: none;
+}
+
+.card-body button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #fe4c50;
+    color: white;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image__div{
+    position: relative;
+}
+
+.image__div button{
+    border: none;
+    background: none;
+    color: #fe4c50;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}

@@ -1,0 +1,28 @@
+.detail__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.detail__left img{
+    width: 300px;
+}
+
+.detail__right p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.detail__div{
+    padding: 80px 0;
+}
+
+.detail__div button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #fe4c50;
+    color: white;
+    margin-top: 10px;
+}

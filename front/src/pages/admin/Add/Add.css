@@ -1,0 +1,22 @@
+.add__div{
+    padding: 80px 0px;
+}
+
+.add__div form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.add__div form input{
+    width: 350px;
+    height: 40px;
+    padding: 4px 15px;
+}
+
+.add__div form button{
+    border: 1px solid lightgray;
+    padding: 8px 30px;
+}

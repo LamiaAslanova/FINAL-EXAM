@@ -1,0 +1,10 @@
+.basket__div{
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basket__div table{
+    width: 80%;
+}
